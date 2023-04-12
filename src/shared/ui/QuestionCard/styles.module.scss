@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 360px;
+}
+
+.title {
+  justify-content: start;
+}
+
+.button {
+  margin-top: 20px;
+}

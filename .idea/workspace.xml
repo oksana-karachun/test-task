@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="295d3aa4-e8f2-4055-abe6-221e3033c8ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/declaration.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/preload/signUp/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/processes/email/Email.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/processes/email/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Input/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Input/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/policy/Policy.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/policy/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/reset.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/reset.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/footer/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/footer/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/header/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/header/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/QuestionCard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/QuestionCard/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Typography/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Typography/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OHIWvihG26af4poxMZWgFEyqcz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "feature/TASK-1-add-base",
+    "last_opened_file_path": "/Users/oksana.karachun/Desktop/obrio_test/src/pages/preload/signUp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/Users/oksana.karachun/Library/pnpm/nodejs/16.20.0/bin/node",
+    "nodejs_package_manager_path": "pnpm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/oksana.karachun/Desktop/obrio_test/node_modules/prettier",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "ts.external.directory.path": "/Users/oksana.karachun/Desktop/obrio_test/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/preload/signUp" />
+      <recent name="$PROJECT_DIR$/src/entities/footer" />
+      <recent name="$PROJECT_DIR$/src/pages/preload/decisions" />
+      <recent name="$PROJECT_DIR$/src/pages/preload/problems" />
+      <recent name="$PROJECT_DIR$/src/pages/preload/parent" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/processes" />
+      <recent name="$PROJECT_DIR$/src/widgets" />
+      <recent name="$PROJECT_DIR$/src/pages/preload" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.lint-fix">
+    <configuration name="lint-fix" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint-fix" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="prettier" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prettier" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (1)" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="$USER_HOME$/Library/pnpm/nodejs/16.20.0/bin/node" />
+      <package-manager value="$USER_HOME$/Library/pnpm/pnpm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (2)" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="$USER_HOME$/Library/pnpm/nodejs/16.20.0/bin/node" />
+      <package-manager value="pnpm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="$USER_HOME$/Library/pnpm/nodejs/16.20.0/bin/node" />
+      <package-manager value="$USER_HOME$/Library/pnpm/pnpm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.lint-fix" />
+        <item itemvalue="npm.prettier" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="295d3aa4-e8f2-4055-abe6-221e3033c8ca" name="Changes" comment="" />
+      <created>1681211115629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681211115629</updated>
+      <workItem from="1681211130596" duration="3000" />
+      <workItem from="1681211144446" duration="10397000" />
+      <workItem from="1681222135075" duration="1228000" />
+      <workItem from="1681223380651" duration="2365000" />
+      <workItem from="1681225767480" duration="28697000" />
+      <workItem from="1681302719025" duration="3853000" />
+      <workItem from="1681306926385" duration="12826000" />
+    </task>
+    <task id="LOCAL-00001" summary="[TASK-1] add base">
+      <created>1681306790334</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681306790334</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[TASK-1] add base" />
+    <option name="LAST_COMMIT_MESSAGE" value="[TASK-1] add base" />
+  </component>
+</project>
