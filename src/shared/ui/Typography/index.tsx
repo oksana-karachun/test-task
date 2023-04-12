@@ -8,7 +8,7 @@ interface PropTypes {
   className?: string;
   onClick?: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
-export const Typography = ({ title, className }: PropTypes) => {
+export const Typography: React.FC<PropTypes> = ({ title, className }) => {
   return <div className={classNames(styles.wrapper, className)}>{title}</div>;
 };
 export default Typography;

@@ -8,7 +8,7 @@ interface PropTypes {
   question: string;
   answers: Array<string>;
 }
-export const QuestionCard = ({ question, answers }: PropTypes) => {
+export const QuestionCard: React.FC<PropTypes> = ({ question, answers }) => {
   const buttons = () =>
     answers.map((answer) => <Button key={answer} title={answer} />);
 

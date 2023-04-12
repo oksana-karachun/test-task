@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "include": ["src"],
+    "include": ["src", "declaration.d.ts"],
     "baseUrl": "./src",
     "paths": {
       "*": ["*", "src/*"]
