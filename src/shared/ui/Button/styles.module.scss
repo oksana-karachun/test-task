@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 330px;
+  height: 64px;;
+  padding: 12px 20px;
+  margin: 10px 0 ;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.primary {
+  border: 1px solid var(--secondary-200);
+  background: var(--secondary-100);
+  box-shadow: 2px 2px 6px var(--primary-opasity-100);
+}
+
+.secondary {
+  width: 328px;
+  height: 49px;
+  background: var(--gradient-purple);
+  color: var(--typography-200);
+  box-shadow: 2px 4px 4px var(--primary-opasity-200);
+}
+
+.white {
+  background: var(--secondary-400);
+}
+
+.wrapper:active {
+  color: white;
+  background: var(--gradient-purple);
+  border: 1px solid var(--typography-100);
+  box-shadow: 2px 2px 6px var(--primary-opasity-100);
+}
