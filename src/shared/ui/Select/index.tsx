@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 interface PropTypes {
   value: string;
   options: Array<string>;
@@ -7,7 +8,7 @@ interface PropTypes {
 export const Select = ({ value, options, onChange }: PropTypes) => {
   const [currentValue, setCurrentValue] = useState(value || '');
 
-  //TODO: This functionality will be added in the following tasks (TASK-3 create select component)
+  //TODO: This functionality will be added in the following tasks (TASK-6 create select component)
   const handleSelectChange = (event) => {
     const value = event.target.value;
     setSelectedValue(value);

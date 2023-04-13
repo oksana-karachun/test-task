@@ -1,5 +1,5 @@
-import React from 'react';
 import classNames from 'classnames';
+import React from 'react';
 
 import styles from './styles.module.scss';
 
@@ -13,17 +13,12 @@ export const Button: React.FC<PropTypes> = ({
   title,
   fill = 'primary',
   type = 'button',
-  onClick,
+  onClick = Function.prototype,
 }) => {
-  //TODO: This functionality will be added in the following tasks
-  const onClickHandle = () => {
-    // onClick();
-  };
-
   return (
     <button
       className={classNames(styles.wrapper, styles[fill])}
-      onClick={onClickHandle}
+      onClick={() => onClick()}
       type={type}
     >
       {title}

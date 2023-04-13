@@ -1,6 +1,7 @@
-import { Typography } from 'shared/ui';
 import classNames from 'classnames';
 import React from 'react';
+
+import { Typography } from 'shared/ui';
 
 import styles from './styles.module.scss';
 

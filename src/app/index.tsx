@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Preload from '../pages/preload';
 
 import styles from './index.module.scss';

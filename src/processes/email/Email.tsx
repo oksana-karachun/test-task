@@ -1,7 +1,8 @@
 import React from 'react';
+import { useForm } from 'react-hook-form';
+
 import { Button, Input, Typography } from 'shared/ui';
 import Policy from 'widgets/policy/Policy';
-import { useForm } from 'react-hook-form';
 
 import styles from './styles.module.scss';
 
@@ -15,7 +16,7 @@ const Email = () => {
   const onSubmit = (data: FormData) => {
     console.log(data);
   };
-  //TODO: This component will be finished in TASK-4-fix-input-logic
+  //TODO: This component will be finished in TASK-5-fix-input-logic
 
   return (
     <div className={styles.wrapper}>
