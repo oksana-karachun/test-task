@@ -1,5 +1,7 @@
 import React from 'react';
+
 import { Typography } from 'shared/ui';
+
 import Policy from '../policy/Policy';
 
 import styles from './styles.module.scss';

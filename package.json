@@ -12,7 +12,6 @@
     "@types/react": "18.0.34",
     "@types/react-dom": "18.0.11",
     "classnames": "^2.3.2",
-    "eslint-plugin-simple-import-sort": "^10.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.43.9",
@@ -60,6 +59,7 @@
     "eslint-config-import-sort": "^1.0.1",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
     "node-sass": "8.0.0",
     "prettier": "^2.8.7",
     "style-loader": "^3.3.2"

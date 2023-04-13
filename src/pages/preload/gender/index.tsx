@@ -1,4 +1,5 @@
 import React from 'react';
+
 import QuestionCard from 'shared/ui/QuestionCard';
 
 const Gender = () => {

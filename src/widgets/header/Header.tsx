@@ -1,7 +1,7 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import { chevron, logo_black } from 'app/icons';
-import { useNavigate } from 'react-router-dom';
 
 import styles from './styles.module.scss';
 

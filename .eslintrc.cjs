@@ -7,7 +7,7 @@ module.exports = {
         'eslint-config-import-sort'
     ],
     parser: '@typescript-eslint/parser',
-    plugins: ['@typescript-eslint'],
+    plugins: ['@typescript-eslint', "simple-import-sort", "simple-import-sort"],
     rules: {
         'no-multiple-empty-lines': [1, { max: 1, maxEOF: 0 }],
         'no-console': [1, { allow: ['warn', 'error'] }],
@@ -24,5 +24,6 @@ module.exports = {
         ],
         'prettier/prettier': 1,
         'simple-import-sort/imports': 'warn',
+        'simple-import-sort/exports': 'warn',
     },
 };

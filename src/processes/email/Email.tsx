@@ -1,7 +1,8 @@
 import React from 'react';
+import { useForm } from 'react-hook-form';
+
 import { Button, Input, Typography } from 'shared/ui';
 import Policy from 'widgets/policy/Policy';
-import { useForm } from 'react-hook-form';
 
 import styles from './styles.module.scss';
 

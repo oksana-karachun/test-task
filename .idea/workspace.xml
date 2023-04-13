@@ -4,13 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="295d3aa4-e8f2-4055-abe6-221e3033c8ca" name="Changes" comment="">
+    <list default="true" id="295d3aa4-e8f2-4055-abe6-221e3033c8ca" name="Changes" comment="[TASK-4] sort all imports">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.cjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/decisions/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/decisions/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/gender/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/gender/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/preload/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/parent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/parent/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/problems/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/problems/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/signUp/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/signUp/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/status/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/status/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processes/email/Email.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/processes/email/Email.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/QuestionCard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/QuestionCard/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Select/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Select/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/footer/Footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/widgets/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/policy/Policy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/policy/Policy.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +41,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/TASK-1-add-base" />
+        <entry key="$PROJECT_DIR$" value="feature/TASK-3-add-router" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,7 +59,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/TASK-3-add-router",
+    "git-widget-placeholder": "feature/TASK-4-add-store",
     "last_opened_file_path": "/Users/oksana.karachun/Desktop/obrio_test/src/pages/preload/signUp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -146,7 +160,7 @@
       <workItem from="1681223380651" duration="2365000" />
       <workItem from="1681225767480" duration="28697000" />
       <workItem from="1681302719025" duration="3853000" />
-      <workItem from="1681306926385" duration="14756000" />
+      <workItem from="1681306926385" duration="18269000" />
     </task>
     <task id="LOCAL-00001" summary="[TASK-1] add base">
       <created>1681306790334</created>
@@ -162,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681322066121</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[TASK-3] add base router">
+      <created>1681324168084</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681324168084</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +203,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[TASK-1] add base" />
     <MESSAGE value="[TASK-2] add email page, move Footer and Header to widgets" />
-    <option name="LAST_COMMIT_MESSAGE" value="[TASK-2] add email page, move Footer and Header to widgets" />
+    <MESSAGE value="[TASK-3] add base router" />
+    <MESSAGE value="[TASK-4] sort all imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="[TASK-4] sort all imports" />
   </component>
 </project>
