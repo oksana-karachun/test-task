@@ -1,6 +1,11 @@
 @import './styles/index.module';
 
 .wrapper {
-  background: #fff0f0;
   height: 100vh;
+  background: var(--primary-100);
+}
+
+.result {
+  background: var(--gradient-purple);
+  color: var(--typography-200);
 }

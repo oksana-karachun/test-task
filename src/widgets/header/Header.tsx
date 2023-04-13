@@ -12,6 +12,7 @@ export const Header = () => {
   const handleGoBackClick = () => {
     goBack(-1);
   };
+
   const handleLogoClick = () => {
     navigate('/');
   };

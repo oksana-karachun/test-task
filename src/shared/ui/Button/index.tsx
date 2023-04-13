@@ -4,11 +4,12 @@ import React from 'react';
 import styles from './styles.module.scss';
 
 type ButtonType = 'button' | 'submit';
+type Fill = 'primary' | 'secondary' | 'transparent' | 'white';
 
 interface PropTypes {
   title: string;
   type?: ButtonType;
-  fill?: string;
+  fill?: Fill;
   onClick?: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 export const Button: React.FC<PropTypes> = ({
