@@ -1,8 +1,14 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
-interface DataState {
+interface Birth {
+  month: string;
+  day: string;
+  year: string;
+}
+
+export interface DataState {
   gender: string;
-  birth: Date | null;
+  birth: Birth;
   status: string;
   problems: string;
   parent: boolean;
@@ -12,7 +18,11 @@ interface DataState {
 
 const initialState: DataState = {
   gender: '',
-  birth: null,
+  birth: {
+    month: '',
+    day: '',
+    year: '',
+  },
   status: '',
   problems: '',
   parent: false,
@@ -27,7 +37,7 @@ const data = createSlice({
     setGender(state, action: PayloadAction<string>) {
       state.gender = action.payload;
     },
-    setBirth(state, action: PayloadAction<Date | null>) {
+    setBirth(state, action: PayloadAction<Birth>) {
       state.birth = action.payload;
     },
     setStatus(state, action: PayloadAction<string>) {
