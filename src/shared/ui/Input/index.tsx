@@ -1,4 +1,5 @@
 import React, { forwardRef } from 'react';
+import { UseFormRegisterReturn } from 'react-hook-form';
 
 import Typography from '../Typography';
 
@@ -8,10 +9,11 @@ interface PropTypes {
   name: string;
   label: string;
   placeholder?: string;
-  type: string;
+  type: 'text' | 'password' | 'email' | 'tel' | 'number';
+  inputRef?: UseFormRegisterReturn;
 }
 export const Input = forwardRef<HTMLInputElement, PropTypes>(
-  ({ label, name, type, placeholder }, ref) => {
+  ({ label, name, type, placeholder, inputRef }) => {
     return (
       <div className={styles.wrapper}>
         <label htmlFor={name}>
@@ -22,7 +24,7 @@ export const Input = forwardRef<HTMLInputElement, PropTypes>(
           type={type}
           className={styles.input}
           placeholder={placeholder}
-          ref={ref}
+          ref={inputRef}
         />
       </div>
     );

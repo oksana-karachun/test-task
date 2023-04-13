@@ -1,30 +1,43 @@
 import React, { useState } from 'react';
 
-interface PropTypes {
-  value: string;
-  options: Array<string>;
-  onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
-}
-export const Select = ({ value, options, onChange }: PropTypes) => {
-  const [currentValue, setCurrentValue] = useState(value || '');
+import { arrow } from 'app/icons';
 
-  //TODO: This functionality will be added in the following tasks (TASK-6 create select component)
-  const handleSelectChange = (event) => {
+import styles from './styles.module.scss';
+
+interface PropTypes {
+  name: string;
+  value: string;
+  options: Array<any>;
+  onChange?: (event: string) => void;
+}
+export const Select = ({ name, value, options, onChange }: PropTypes) => {
+  const [currentValue, setCurrentValue] = useState(value || '');
+  const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const value = event.target.value;
-    setSelectedValue(value);
+
+    setCurrentValue(value);
     if (onChange) {
       onChange(value);
     }
   };
 
   return (
-    <select value={selectedValue} onChange={handleSelectChange}>
-      {options.map((option) => (
-        <option key={option.value} value={option.value}>
-          {option.label}
-        </option>
-      ))}
-    </select>
+    <div className={styles.wrapper}>
+      <img src={arrow} alt="arrow" className={styles.icon} />
+      <select
+        name={name}
+        id={name}
+        value={currentValue}
+        onChange={handleSelectChange}
+        className={styles.select}
+      >
+        {options.map((option) => (
+          <option key={option.value} value={option.value}>
+            {option.value}
+          </option>
+        ))}
+      </select>
+    </div>
   );
 };
 export default Select;

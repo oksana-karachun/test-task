@@ -3,9 +3,11 @@ import React from 'react';
 
 import styles from './styles.module.scss';
 
+type ButtonType = 'button' | 'submit' | 'reset';
+
 interface PropTypes {
   title: string;
-  type?: string;
+  type?: ButtonType;
   fill?: string;
   onClick?: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
