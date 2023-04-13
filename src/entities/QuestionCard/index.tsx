@@ -19,7 +19,7 @@ export const QuestionCard: React.FC<PropTypes> = ({
       <div className={styles.title}>
         <Typography title={question} />
       </div>
-      <div className={styles.select}>{select}</div>
+      {select ? <div className={styles.select}>{select}</div> : null}
       <div className={styles.button}>{buttons}</div>
     </div>
   );

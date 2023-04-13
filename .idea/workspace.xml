@@ -5,15 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="295d3aa4-e8f2-4055-abe6-221e3033c8ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/preload/parent/index.selector.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/preload/problems/index.selector.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/preload/relationship-info/inde.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/preload/relationship-info/index.selector.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/preload/relationship-info/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/QuestionCard/model/index.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/QuestionCard/model/index.reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/parent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/parent/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/problems/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/problems/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/QuestionCard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/QuestionCard/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/QuestionCard/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/QuestionCard/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/decisions/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/decisions/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/helpers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/helpers/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/header/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/header/styles.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/TASK-5-add-birth-page" />
+        <entry key="$PROJECT_DIR$" value="feature/TASK-6-add-logic-to-display-questions" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +58,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/TASK-6-add-logic-to-displ…tions",
+    "git-widget-placeholder": "feature/TASK-7-create-relationship-info-page",
     "last_opened_file_path": "/Users/oksana.karachun/Desktop/obrio_test/src/pages/preload/birth",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -150,7 +160,7 @@
       <workItem from="1681225767480" duration="28697000" />
       <workItem from="1681302719025" duration="3853000" />
       <workItem from="1681306926385" duration="18448000" />
-      <workItem from="1681379617683" duration="29341000" />
+      <workItem from="1681379617683" duration="34752000" />
     </task>
     <task id="LOCAL-00001" summary="[TASK-1] add base">
       <created>1681306790334</created>
@@ -201,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681407714411</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[TASK-6] add logic to display questions">
+      <created>1681420507345</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681420507345</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +242,7 @@
     <MESSAGE value="[TASK-4] sort all imports" />
     <MESSAGE value="[TASK-4] add store" />
     <MESSAGE value="[TASK-5] add birth page" />
-    <option name="LAST_COMMIT_MESSAGE" value="[TASK-5] add birth page" />
+    <MESSAGE value="[TASK-6] add logic to display questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="[TASK-6] add logic to display questions" />
   </component>
 </project>

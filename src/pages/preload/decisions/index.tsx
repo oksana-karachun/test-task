@@ -14,7 +14,6 @@ const Decisions = () => {
 
   const onClickHandler = (decision: string) => {
     setUserDecisions(decision);
-    //TODO: will be done in this task: [TASK-10] create relationshipInfo page
     navigate('/relationship-info');
   };
 

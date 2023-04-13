@@ -54,3 +54,35 @@ export const calculateAge = (birthdate: {
 
   return age;
 };
+
+export const getZodiacSign = (month: string, day: string): string => {
+  const monthNumber = getMonthNumber(month);
+
+  const zodiacSigns = [
+    'Aquarius',
+    'Pisces',
+    'Aries',
+    'Taurus',
+    'Gemini',
+    'Cancer',
+    'Leo',
+    'Virgo',
+    'Libra',
+    'Scorpio',
+    'Sagittarius',
+    'Capricorn',
+  ];
+
+  const cutoffs = [20, 19, 21, 21, 21, 22, 23, 23, 23, 23, 22, 22];
+
+  let index = monthNumber - 1;
+
+  if (Number(day) < cutoffs[index]) {
+    index--;
+  }
+  if (index < 0) {
+    index = 11;
+  }
+
+  return zodiacSigns[index];
+};

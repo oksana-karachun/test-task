@@ -1,5 +1,6 @@
-import { RootState } from 'app/store';
 import { createSelector } from '@reduxjs/toolkit';
+
+import { RootState } from 'app/store';
 import { calculateAge } from 'shared/helpers';
 
 export const dataSelector = createSelector(

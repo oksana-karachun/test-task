@@ -10,6 +10,7 @@ import Gender from './gender';
 import styles from './index.module.scss';
 import Parent from './parent';
 import Problems from './problems';
+import RelationshipInfo from './relationship-info';
 import Email from './signUp';
 import Status from './status';
 
@@ -23,6 +24,7 @@ const Preload = () => (
       <Route path={'/parent'} element={<Parent />} />
       <Route path={'/problems'} element={<Problems />} />
       <Route path={'/decisions'} element={<Decisions />} />
+      <Route path={'/relationship-info'} element={<RelationshipInfo />} />
       <Route path={'/email'} element={<Email />} />
     </Routes>
     <Footer />
