@@ -1,36 +1,36 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
 import QuestionCard from 'entities/QuestionCard';
-import { PROBLEMS_TYPE } from 'shared/config';
+import { PROBLEMS_TYPE, STATUS } from 'shared/config';
 import { useBehavior } from 'shared/lib';
 import { Button } from 'shared/ui';
 
+import { familyUserStatusSelector } from '../parent/index.selector';
+
 import { problemsBehaviors } from './index.behavior';
+import { dataSelector } from './index.selector';
 
 const Problems = () => {
   const { setUserProblems } = useBehavior(problemsBehaviors);
+  const familyUserStatus = useSelector(familyUserStatusSelector);
+  const data = useSelector(dataSelector);
   const navigate = useNavigate();
-
+  const isSingle = familyUserStatus === STATUS.SINGLE;
   const onClickHandler = (problems: string) => {
     setUserProblems(problems);
     navigate('/decisions');
   };
-
-  //TODO: create selectors for this data -> single, info TASK-7-add-selectors
-  const single = true;
-  const info = {
-    gender: 'male',
-    age: 25,
-    children: 1,
-  };
-  const { gender, age, children } = info;
+  const { gender, age, children } = data;
 
   return (
     <>
-      {single ? (
+      {isSingle ? (
         <QuestionCard
-          question={`Single ${gender} ${age} ${children} need a slightly different approach to find their perfect partner. But first, how did you feel in your last relationship?`}
+          question={`Single ${gender} ${age} ${
+            children ? 'who have children' : ''
+          } need a slightly different approach to find their perfect partner. But first, how did you feel in your last relationship?`}
           buttons={
             <>
               <Button
@@ -54,7 +54,9 @@ const Problems = () => {
         />
       ) : (
         <QuestionCard
-          question={`${gender} ${age} ${children} need a slightly different approach to improve their relationship. Which statement best describes you?`}
+          question={`${gender} ${age} ${
+            children ? 'who have children' : ''
+          } need a slightly different approach to improve their relationship. Which statement best describes you?`}
           buttons={
             <>
               <Button
@@ -72,7 +74,7 @@ const Problems = () => {
             </>
           }
         />
-      )}{' '}
+      )}
     </>
   );
 };

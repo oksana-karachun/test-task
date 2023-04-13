@@ -3,7 +3,7 @@ import React from 'react';
 
 import styles from './styles.module.scss';
 
-type ButtonType = 'button' | 'submit' | 'reset';
+type ButtonType = 'button' | 'submit';
 
 interface PropTypes {
   title: string;
