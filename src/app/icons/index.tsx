@@ -1,4 +1,5 @@
+import arrow from './arrow.svg';
 import chevron from './Chevron.svg';
 import logo_black from './logo_black.svg';
 
-export { chevron, logo_black };
+export { arrow, chevron, logo_black };

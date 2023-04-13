@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Footer } from 'widgets/footer/Footer';
 import { Header } from 'widgets/header/Header';
 
+import Birth from './birth';
 import Decisions from './decisions';
 import Gender from './gender';
 import styles from './index.module.scss';
@@ -17,6 +18,7 @@ const Preload = () => (
     <Header />
     <Routes>
       <Route path={'/'} element={<Gender />} />
+      <Route path={'/birth'} element={<Birth />} />
       <Route path={'/status'} element={<Status />} />
       <Route path={'/parent'} element={<Parent />} />
       <Route path={'/problems'} element={<Problems />} />

@@ -24,3 +24,18 @@ export const PROBLEMS_TYPE = {
   F: 'I’m unhappy with parts of my relationship, but some things are working well',
   G: 'I’m generally happy in my relationship',
 };
+
+export const MONTH = [
+  { value: 'Jan' },
+  { value: 'Feb' },
+  { value: 'Mar' },
+  { value: 'Apr' },
+  { value: 'May' },
+  { value: 'Jun' },
+  { value: 'Jul' },
+  { value: 'Aug' },
+  { value: 'Sep' },
+  { value: 'Oct' },
+  { value: 'Nov' },
+  { value: 'Dec' },
+];

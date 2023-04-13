@@ -27,6 +27,9 @@ const data = createSlice({
     setGender(state, action: PayloadAction<string>) {
       state.gender = action.payload;
     },
+    setBirth(state, action: PayloadAction<Date | null>) {
+      state.birth = action.payload;
+    },
     setStatus(state, action: PayloadAction<string>) {
       state.status = action.payload;
     },
@@ -42,7 +45,13 @@ const data = createSlice({
   },
 });
 
-export const { setGender, setStatus, setParent, setProblems, setDecisions } =
-  data.actions;
+export const {
+  setGender,
+  setBirth,
+  setStatus,
+  setParent,
+  setProblems,
+  setDecisions,
+} = data.actions;
 
 export default data.reducer;
