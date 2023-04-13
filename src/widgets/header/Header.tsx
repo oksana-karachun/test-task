@@ -7,8 +7,13 @@ import styles from './styles.module.scss';
 
 export const Header = () => {
   const goBack = useNavigate();
+  const navigate = useNavigate();
+
   const handleGoBackClick = () => {
     goBack(-1);
+  };
+  const handleLogoClick = () => {
+    navigate('/');
   };
 
   return (
@@ -19,7 +24,12 @@ export const Header = () => {
         className={styles.icon}
         onClick={handleGoBackClick}
       />
-      <img src={logo_black} alt="logo" className={styles.icon} />
+      <img
+        src={logo_black}
+        alt="logo"
+        className={styles.icon}
+        onClick={handleLogoClick}
+      />
     </header>
   );
 };

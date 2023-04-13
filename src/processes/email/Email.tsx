@@ -16,7 +16,7 @@ const Email = () => {
   const onSubmit = (data: FormData) => {
     console.log(data);
   };
-  //TODO: This component will be finished in TASK-4-fix-input-logic
+  //TODO: This component will be finished in TASK-5-fix-input-logic
 
   return (
     <div className={styles.wrapper}>

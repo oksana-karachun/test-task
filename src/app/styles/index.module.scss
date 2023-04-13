@@ -1,30 +1,36 @@
-@import "./reset.module";
+@import './reset.module';
 
 :root {
-  --primary-100: #FFF0F0;
-  --primary-200: #DEE4F8;
-  --primary-300: #9BABD9;
-  --primary-500: #8E8CF0;
+  --primary-100: #fff0f0;
+  --primary-200: #dee4f8;
+  --primary-300: #9babd9;
+  --primary-500: #8e8cf0;
 
-  --secondary-100: #EAEEF7;
-  --secondary-200: #E0E0E0;
-  --secondary-300: #E6E6E6;
-  --secondary-400: #FBFBFF;
-  --secondary-500: #C6C6C6;
+  --secondary-100: #eaeef7;
+  --secondary-200: #e0e0e0;
+  --secondary-300: #e6e6e6;
+  --secondary-400: #fbfbff;
+  --secondary-500: #c6c6c6;
 
   --typography-100: #333333;
-  --typography-200: #FFFFFF;
-  --typography-700: #4E4E4E;
+  --typography-200: #ffffff;
+  --typography-700: #4e4e4e;
   --typography-800: #343434;
 
-  --gradient-purple: linear-gradient(165.54deg, #141333 -33.39%, #202261 15.89%, #543C97 55.84%, #6939A2 74.96%);
+  --gradient-purple: linear-gradient(
+    165.54deg,
+    #141333 -33.39%,
+    #202261 15.89%,
+    #543c97 55.84%,
+    #6939a2 74.96%
+  );
 
   --primary-opasity-100: rgba(84, 60, 151, 0.25);
   --primary-opasity-200: rgba(0, 0, 0, 0.25);
 }
 
 body {
-  font-family: Open Sans,sans-serif;
+  font-family: Open Sans, sans-serif;
   color: var(--typography-100);
   height: 100%;
 }
