@@ -24,37 +24,6 @@
 
 .pictures {
   position: relative;
+  align-self: center;
   height: 190px;
-}
-
-.circle {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%);
-}
-
-.line {
-  position: absolute;
-  bottom: 30px;
-  left: 50%;
-  transform: translate(-50%);
-}
-
-.head {
-  position: absolute;
-  bottom: 70px;
-  left: 15%;
-}
-
-.heart {
-  position: absolute;
-  bottom: 50px;
-  right: 15%;
-}
-
-.stars {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
 }
