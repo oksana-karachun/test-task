@@ -5,9 +5,12 @@ import { Typography } from 'shared/ui';
 import Policy from '../policy/Policy';
 
 import styles from './styles.module.scss';
+import { useLocation } from 'react-router-dom';
 
 export const Footer = () => {
-  const firstPage = true;
+  const location = useLocation();
+  const firstPage = location.pathname === '/';
+
   return (
     <div>
       {firstPage ? (
