@@ -14,11 +14,8 @@ const Gender = () => {
 
   const onClickHandler = (gender: string) => {
     setUserGender(gender);
-    //TODO: will be done in this task: [TASK-8] create birth page
     navigate('/birth');
   };
-
-  //TODO: create a function that saves in localStorage the information that this page is being displayed. TASK-9-add-logic-for-chevron-button
 
   return (
     <QuestionCard
