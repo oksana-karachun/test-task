@@ -1,5 +1,8 @@
 # Welcome to my test task for OBRIO (Genesis)! ✨
 
+TASK: https://sites.google.com/gen.tech/obrioasknebula-react-new/home
+Design: https://www.figma.com/file/hle6JH94H8GWcD55By8BjS/Test_Frontend-2?node-id=0-1
+
 Hi, there! 👋🏻
 
 I am Oksana, a skilled frontend developer with 3 years of experience.
