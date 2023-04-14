@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { UseFormRegisterReturn } from 'react-hook-form';
+import { Control, Controller } from 'react-hook-form';
 
 import Typography from '../Typography';
 
@@ -9,22 +9,45 @@ interface PropTypes {
   name: string;
   label: string;
   placeholder?: string;
-  type: 'text' | 'password' | 'email' | 'tel' | 'number';
-  inputRef?: UseFormRegisterReturn;
+  defaultValue?: string;
+  control: Control;
+  type?: 'text' | 'password' | 'email' | 'tel' | 'number';
 }
 export const Input = forwardRef<HTMLInputElement, PropTypes>(
-  ({ label, name, type, placeholder, inputRef }) => {
+  ({ label, name, control, placeholder, defaultValue, type = 'text' }) => {
     return (
       <div className={styles.wrapper}>
-        <label htmlFor={name}>
-          <Typography title={label} className={styles.label} />
-        </label>
-        <input
-          id={name}
-          type={type}
-          className={styles.input}
-          placeholder={placeholder}
-          ref={inputRef}
+        <Controller
+          name={name}
+          control={control}
+          defaultValue={defaultValue}
+          rules={{
+            required: 'Field cannot be empty',
+            pattern: {
+              value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+              message: 'Invalid email address',
+            },
+          }}
+          render={({
+            field: { onChange, onBlur, value, ref },
+            fieldState: { error },
+          }) => (
+            <>
+              <label htmlFor={name}>
+                <Typography title={label} className={styles.label} />
+              </label>
+              <input
+                type={type}
+                value={value}
+                onBlur={onBlur}
+                onChange={onChange}
+                placeholder={placeholder}
+                ref={ref}
+                className={styles.input}
+              />
+              {error && <span className={styles.error}>{error.message}</span>}
+            </>
+          )}
         />
       </div>
     );

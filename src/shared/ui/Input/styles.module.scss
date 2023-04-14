@@ -1,5 +1,6 @@
 .wrapper {
   display: flex;
+  position: relative;
   flex-direction: column;
   gap: 30px;
 }
@@ -25,4 +26,13 @@
 .label {
   font-size: 18px;
   text-align: center;
+}
+
+
+.error {
+  position: absolute;
+  color: red;
+  left: 10px;
+  bottom: -15%;
+  font-size: 12px;
 }

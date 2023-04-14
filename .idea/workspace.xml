@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="295d3aa4-e8f2-4055-abe6-221e3033c8ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/icons/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/icons/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/processes/email/index.behavior.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/processes/email/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/QuestionCard/model/index.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/QuestionCard/model/index.reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/signUp/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/signUp/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processes/email/Email.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Input/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Input/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Input/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Input/styles.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/TASK-11-change-color-of-header-for-relatioship-info-page" />
+        <entry key="$PROJECT_DIR$" value="feature/TASK-14-add-readme-file" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,8 +47,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/oksana.karachun/Desktop/obrio_test/src/pages/preload/birth",
+    "git-widget-placeholder": "feature/TASK-15-fix-imput-logic",
+    "last_opened_file_path": "/Users/oksana.karachun/Desktop/obrio_test/src/processes/email",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -61,11 +65,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/processes/email" />
       <recent name="$PROJECT_DIR$/src/pages/preload/birth" />
       <recent name="$PROJECT_DIR$/src/pages/preload/status" />
       <recent name="$PROJECT_DIR$/src/pages/preload/problems" />
       <recent name="$PROJECT_DIR$/src/pages/preload/decisions" />
-      <recent name="$PROJECT_DIR$/src/pages/preload/parent" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/app/hooks" />
@@ -245,7 +249,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681468995820</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="[TASK-14] add readme file">
+      <created>1681476953796</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681476953796</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[TASK-14] add readme file">
+      <created>1681477085691</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681477085692</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +293,7 @@
     <MESSAGE value="[TASK-9] add pictures for purple page" />
     <MESSAGE value="[TASK-10] add display logic for footer" />
     <MESSAGE value="[TASK-11] change color for header" />
-    <option name="LAST_COMMIT_MESSAGE" value="[TASK-11] change color for header" />
+    <MESSAGE value="[TASK-14] add readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="[TASK-14] add readme file" />
   </component>
 </project>
