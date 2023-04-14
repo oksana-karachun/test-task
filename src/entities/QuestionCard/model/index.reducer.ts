@@ -14,6 +14,7 @@ export interface DataState {
   parent: boolean;
   singleParent: boolean;
   decisions: string;
+  email: string;
 }
 
 const initialState: DataState = {
@@ -28,6 +29,7 @@ const initialState: DataState = {
   parent: false,
   singleParent: false,
   decisions: '',
+  email: '',
 };
 
 const data = createSlice({
@@ -52,6 +54,9 @@ const data = createSlice({
     setDecisions(state, action: PayloadAction<string>) {
       state.decisions = action.payload;
     },
+    setEmail(state, action: PayloadAction<string>) {
+      state.email = action.payload;
+    },
   },
 });
 
@@ -62,6 +67,7 @@ export const {
   setParent,
   setProblems,
   setDecisions,
+  setEmail,
 } = data.actions;
 
 export default data.reducer;
