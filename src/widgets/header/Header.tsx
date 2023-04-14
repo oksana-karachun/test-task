@@ -1,13 +1,15 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 
-import { chevron, logo_black } from 'app/icons';
+import { chevron, logo, white_chevron, white_logo } from 'app/icons';
 
 import styles from './styles.module.scss';
 
 export const Header = () => {
   const goBack = useNavigate();
   const navigate = useNavigate();
+  const location = useLocation();
+  const relationShipInfoPage = location.pathname === '/relationship-info';
 
   const handleGoBackClick = () => {
     goBack(-1);
@@ -17,16 +19,19 @@ export const Header = () => {
     navigate('/');
   };
 
+  const chevronSVG = relationShipInfoPage ? white_chevron : chevron;
+  const logoSVG = relationShipInfoPage ? white_logo : logo;
+
   return (
     <header className={styles.wrapper}>
       <img
-        src={chevron}
+        src={chevronSVG}
         alt="logo"
         className={styles.icon}
         onClick={handleGoBackClick}
       />
       <img
-        src={logo_black}
+        src={logoSVG}
         alt="logo"
         className={styles.icon}
         onClick={handleLogoClick}

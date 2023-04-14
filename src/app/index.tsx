@@ -8,9 +8,7 @@ import styles from './index.module.scss';
 
 function App() {
   const location = useLocation();
-  const isPurple =
-    location.pathname === '/relationship-info' ||
-    location.pathname === '/email';
+  const isPurple = location.pathname === '/relationship-info';
 
   return (
     <div className={classNames(styles.wrapper, { [styles.result]: isPurple })}>
