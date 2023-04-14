@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="295d3aa4-e8f2-4055-abe6-221e3033c8ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/shared/lib/hooks/view.hook.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/lib/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/footer/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/header/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681493162677</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="[TASK-19] move useView hook to shared/lib/hooks">
+      <created>1681493604943</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1681493604944</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,6 +351,7 @@
     <MESSAGE value="[TASK-17] fix pictures" />
     <MESSAGE value="[TASK-18] move page links to config" />
     <MESSAGE value="[TASK-19] rename folder and refactor exports and imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="[TASK-19] rename folder and refactor exports and imports" />
+    <MESSAGE value="[TASK-19] move useView hook to shared/lib/hooks" />
+    <option name="LAST_COMMIT_MESSAGE" value="[TASK-19] move useView hook to shared/lib/hooks" />
   </component>
 </project>

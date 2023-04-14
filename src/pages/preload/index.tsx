@@ -2,8 +2,8 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 import { LINKS } from 'shared/config';
-import { Footer } from 'widgets/footer/Footer';
-import { Header } from 'widgets/header/Header';
+import { Footer } from 'widgets/footer';
+import { Header } from 'widgets/header';
 
 import Birth from './birth';
 import Decisions from './decisions';
