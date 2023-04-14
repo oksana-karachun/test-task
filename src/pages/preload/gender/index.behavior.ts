@@ -1,6 +1,6 @@
 import { Dispatch } from 'redux';
 
-import { setGender } from 'entities/QuestionCard/model/index.reducer';
+import { setGender } from 'entities/questionnaire/model';
 import { Gender } from 'shared/api/types';
 
 export const setUserGender = (dispatch: Dispatch) => (data: Gender) => {

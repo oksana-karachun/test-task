@@ -1,8 +1,9 @@
 import { Dispatch } from 'redux';
 
-import { setBirth } from 'entities/QuestionCard/model/index.reducer';
+import { setBirth } from 'entities/questionnaire/model';
+import { Birth } from 'shared/api/types';
 
-export const setUserBirth = (dispatch: Dispatch) => (data: Date) => {
+export const setUserBirth = (dispatch: Dispatch) => (data: Birth) => {
   dispatch(setBirth(data));
 };
 

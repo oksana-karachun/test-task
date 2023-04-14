@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
-import QuestionCard from 'entities/QuestionCard';
+import Questionnaire from 'entities/questionnaire';
 import { LINKS, STATUS } from 'shared/config';
 import { useBehavior } from 'shared/lib';
 import { Button } from 'shared/ui';
@@ -25,7 +25,7 @@ const Parent = () => {
   return (
     <>
       {isSingle ? (
-        <QuestionCard
+        <Questionnaire
           question="Are you a single parent?"
           buttons={
             <>
@@ -35,7 +35,7 @@ const Parent = () => {
           }
         />
       ) : (
-        <QuestionCard
+        <Questionnaire
           question="Are you a parent?"
           buttons={
             <>

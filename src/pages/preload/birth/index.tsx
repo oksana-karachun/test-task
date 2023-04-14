@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import QuestionCard from 'entities/QuestionCard';
+import Questionnaire from 'entities/questionnaire';
 import { LINKS, MONTH } from 'shared/config';
 import { DAYS, YEARS } from 'shared/helpers';
 import { useBehavior } from 'shared/lib';
@@ -34,7 +34,7 @@ const Birth = () => {
   };
 
   return (
-    <QuestionCard
+    <Questionnaire
       question="What’s your date of birth?"
       select={
         <>

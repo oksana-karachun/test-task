@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
-import QuestionCard from 'entities/QuestionCard';
+import Questionnaire from 'entities/questionnaire';
 import { LINKS, PROBLEMS_TYPE, STATUS } from 'shared/config';
 import { useBehavior } from 'shared/lib';
 import { Button } from 'shared/ui';
@@ -27,7 +27,7 @@ const Problems = () => {
   return (
     <>
       {isSingle ? (
-        <QuestionCard
+        <Questionnaire
           question={`Single ${gender} ${age} ${
             children ? 'who have children' : ''
           } need a slightly different approach to find their perfect partner. But first, how did you feel in your last relationship?`}
@@ -53,7 +53,7 @@ const Problems = () => {
           }
         />
       ) : (
-        <QuestionCard
+        <Questionnaire
           question={`${gender} ${age} ${
             children ? 'who have children' : ''
           } need a slightly different approach to improve their relationship. Which statement best describes you?`}
