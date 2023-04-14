@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="295d3aa4-e8f2-4055-abe6-221e3033c8ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/icons/circle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/icons/head.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/icons/heart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/icons/line.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/icons/stars.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/icons/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/icons/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/relationship-info/inde.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/relationship-info/inde.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/relationship-info/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/relationship-info/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/footer/Footer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/TASK-8-add-display-logic-for-relationship-info-page" />
+        <entry key="$PROJECT_DIR$" value="feature/TASK-9-add-pictures-for-relationship-page" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +41,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/TASK-9-add-pictures-for-r…-page",
+    "git-widget-placeholder": "feature/TASK-10-add-display-logic-for-footer",
     "last_opened_file_path": "/Users/oksana.karachun/Desktop/obrio_test/src/pages/preload/birth",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -150,7 +143,7 @@
       <workItem from="1681225767480" duration="28697000" />
       <workItem from="1681302719025" duration="3853000" />
       <workItem from="1681306926385" duration="18448000" />
-      <workItem from="1681379617683" duration="39275000" />
+      <workItem from="1681379617683" duration="39636000" />
     </task>
     <task id="LOCAL-00001" summary="[TASK-1] add base">
       <created>1681306790334</created>
@@ -229,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681465598896</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[TASK-9] add pictures for purple page">
+      <created>1681468040468</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681468040468</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +256,7 @@
     <MESSAGE value="[TASK-6] add logic to display questions" />
     <MESSAGE value="[TASK-7] create relationship info page" />
     <MESSAGE value="[TASK-8] add display logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="[TASK-8] add display logic" />
+    <MESSAGE value="[TASK-9] add pictures for purple page" />
+    <option name="LAST_COMMIT_MESSAGE" value="[TASK-9] add pictures for purple page" />
   </component>
 </project>
