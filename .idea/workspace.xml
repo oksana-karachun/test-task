@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="295d3aa4-e8f2-4055-abe6-221e3033c8ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/processes/email/index.behavior.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/processes/email/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/icons/decision_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/icons/decision_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/icons/decision_3.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/QuestionCard/model/index.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/QuestionCard/model/index.reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/signUp/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/signUp/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/processes/email/Email.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Input/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Input/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Input/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Input/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/icons/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/icons/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/relationship-info/inde.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/relationship-info/inde.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/relationship-info/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/relationship-info/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/TASK-14-add-readme-file" />
+        <entry key="$PROJECT_DIR$" value="feature/TASK-15-fix-input-logic" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,7 +46,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/TASK-15-fix-imput-logic",
+    "git-widget-placeholder": "feature/TASK-16-add-pictures-for-…-page",
     "last_opened_file_path": "/Users/oksana.karachun/Desktop/obrio_test/src/processes/email",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -263,7 +262,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681477085692</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="[TASK-15] fix input logic">
+      <created>1681481193545</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681481193545</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[TASK-15] fix input logic">
+      <created>1681481246960</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681481246960</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +307,7 @@
     <MESSAGE value="[TASK-10] add display logic for footer" />
     <MESSAGE value="[TASK-11] change color for header" />
     <MESSAGE value="[TASK-14] add readme file" />
-    <option name="LAST_COMMIT_MESSAGE" value="[TASK-14] add readme file" />
+    <MESSAGE value="[TASK-15] fix input logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="[TASK-15] fix input logic" />
   </component>
 </project>
