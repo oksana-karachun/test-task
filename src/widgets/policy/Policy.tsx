@@ -5,9 +5,12 @@ import { Typography } from 'shared/ui';
 
 import styles from './styles.module.scss';
 
-export const Policy = () => {
+interface PropTypes {
+  className?: string;
+}
+export const Policy: React.FC<PropTypes> = ({ className }) => {
   return (
-    <div className={styles.wrapper}>
+    <div className={classNames(styles.wrapper, className)}>
       <Typography
         title="By continuing I agree with"
         className={classNames(styles.text, styles.policy)}
