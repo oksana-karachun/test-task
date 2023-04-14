@@ -35,12 +35,12 @@ const RelationshipInfo = () => {
         )}
         {isHead && (
           <div className={styles.pictures}>
-            <img src={decision_2} alt="decision_2" />
+            <img src={decision_3} alt="decision_3" />
           </div>
         )}
         {isBoth && (
           <div className={styles.pictures}>
-            <img src={decision_3} alt="decision_3" />
+            <img src={decision_2} alt="decision_2" />
           </div>
         )}
       </>
