@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import QuestionCard from 'entities/QuestionCard';
+import Questionnaire from 'entities/questionnaire';
 import { GENDER, LINKS } from 'shared/config';
 import { useBehavior } from 'shared/lib';
 import { Button } from 'shared/ui';
@@ -18,7 +18,7 @@ const Gender = () => {
   };
 
   return (
-    <QuestionCard
+    <Questionnaire
       question="Select your gender:"
       buttons={
         <>

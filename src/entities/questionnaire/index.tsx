@@ -2,14 +2,14 @@ import React, { ReactElement } from 'react';
 
 import { Typography } from 'shared/ui';
 
-import styles from './styles.module.scss';
+import styles from './index.module.scss';
 
 interface PropTypes {
   question: string;
   buttons: ReactElement<any, any>;
   select?: ReactElement<any, any>;
 }
-export const QuestionCard: React.FC<PropTypes> = ({
+export const Questionnaire: React.FC<PropTypes> = ({
   question,
   buttons,
   select,
@@ -24,4 +24,4 @@ export const QuestionCard: React.FC<PropTypes> = ({
     </div>
   );
 };
-export default QuestionCard;
+export default Questionnaire;

@@ -1,6 +1,6 @@
 import { Dispatch } from 'redux';
 
-import { setParent } from 'entities/QuestionCard/model/index.reducer';
+import { setParent } from 'entities/questionnaire/model';
 
 export const setFamilyInfo = (dispatch: Dispatch) => (data: boolean) => {
   dispatch(setParent(data));

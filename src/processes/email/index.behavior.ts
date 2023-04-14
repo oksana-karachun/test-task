@@ -1,6 +1,6 @@
 import { Dispatch } from 'redux';
 
-import { setEmail } from 'entities/QuestionCard/model/index.reducer';
+import { setEmail } from 'entities/questionnaire/model';
 
 export const setUserEmail = (dispatch: Dispatch) => (data: string) => {
   dispatch(setEmail(data));

@@ -6,18 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="295d3aa4-e8f2-4055-abe6-221e3033c8ca" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/birth/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/birth/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/decisions/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/decisions/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/gender/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/gender/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/parent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/parent/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/problems/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/problems/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/relationship-info/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/relationship-info/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/signUp/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/signUp/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/status/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/status/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/config/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processes/email/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/processes/email/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/footer/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/policy/Policy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/policy/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/TASK-17-fix-pictures" />
+        <entry key="$PROJECT_DIR$" value="feature/TASK-18-move-page-links-to-config" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,7 +43,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/TASK-18-move-page-links-to-config",
+    "git-widget-placeholder": "feature/TASK-19-refactor-code",
     "last_opened_file_path": "/Users/oksana.karachun/Desktop/obrio_test/src/processes/email",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -303,7 +294,35 @@
       <option name="project" value="LOCAL" />
       <updated>1681483302015</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="[TASK-18] move page links to config">
+      <created>1681485567124</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1681485567124</updated>
+    </task>
+    <task id="LOCAL-00023" summary="[TASK-19] rename folder and refactor exports and imports">
+      <created>1681493162677</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1681493162677</updated>
+    </task>
+    <task id="LOCAL-00024" summary="[TASK-19] move useView hook to shared/lib/hooks">
+      <created>1681493604943</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1681493604944</updated>
+    </task>
+    <task id="LOCAL-00025" summary="[TASK-19] rename file components">
+      <created>1681493878344</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1681493878344</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +356,10 @@
     <MESSAGE value="[TASK-15] fix input logic" />
     <MESSAGE value="[TASK-16] add pictures for page" />
     <MESSAGE value="[TASK-17] fix pictures" />
-    <option name="LAST_COMMIT_MESSAGE" value="[TASK-17] fix pictures" />
+    <MESSAGE value="[TASK-18] move page links to config" />
+    <MESSAGE value="[TASK-19] rename folder and refactor exports and imports" />
+    <MESSAGE value="[TASK-19] move useView hook to shared/lib/hooks" />
+    <MESSAGE value="[TASK-19] rename file components" />
+    <option name="LAST_COMMIT_MESSAGE" value="[TASK-19] rename file components" />
   </component>
 </project>

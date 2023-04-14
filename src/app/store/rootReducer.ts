@@ -1,3 +1,3 @@
-import dataReducer from 'entities/QuestionCard/model/index.reducer';
+import dataReducer from 'entities/questionnaire/model/index.reducer';
 
 export default { dataReducer };

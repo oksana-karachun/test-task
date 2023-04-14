@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import QuestionCard from 'entities/QuestionCard';
+import Questionnaire from 'entities/questionnaire';
 import { LINKS, STATUS } from 'shared/config';
 import { useBehavior } from 'shared/lib';
 import { Button } from 'shared/ui';
@@ -18,7 +18,7 @@ const Status = () => {
   };
 
   return (
-    <QuestionCard
+    <Questionnaire
       question="So we can get to know you better, tell us about your relationship status."
       buttons={
         <>

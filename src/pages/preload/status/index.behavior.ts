@@ -1,6 +1,6 @@
 import { Dispatch } from 'redux';
 
-import { setStatus } from 'entities/QuestionCard/model/index.reducer';
+import { setStatus } from 'entities/questionnaire/model';
 
 export const setUserStatus = (dispatch: Dispatch) => (data: string) => {
   dispatch(setStatus(data));

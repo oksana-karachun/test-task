@@ -1,10 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
-interface Birth {
-  month: string;
-  day: string;
-  year: string;
-}
+import { Birth } from 'shared/api/types';
 
 export interface DataState {
   gender: string;

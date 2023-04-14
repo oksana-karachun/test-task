@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import QuestionCard from 'entities/QuestionCard';
+import Questionnaire from 'entities/questionnaire';
 import { DECISION_TYPE, LINKS } from 'shared/config';
 import { useBehavior } from 'shared/lib';
 import { Button } from 'shared/ui';
@@ -18,7 +18,7 @@ const Decisions = () => {
   };
 
   return (
-    <QuestionCard
+    <Questionnaire
       question="Do you make decisions with your head or your heart?"
       buttons={
         <>
