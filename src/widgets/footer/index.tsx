@@ -5,7 +5,7 @@ import { useLocation } from 'react-router-dom';
 import { useView } from 'shared/lib';
 import { Typography } from 'shared/ui';
 
-import Policy from '../policy/Policy';
+import Policy from '../policy';
 
 import styles from './styles.module.scss';
 

@@ -3,7 +3,7 @@ import { FormProvider, useForm } from 'react-hook-form';
 
 import { useBehavior } from 'shared/lib';
 import { Button, Input, Typography } from 'shared/ui';
-import Policy from 'widgets/policy/Policy';
+import Policy from 'widgets/policy';
 
 import { emailBehaviors } from './index.behavior';
 import styles from './styles.module.scss';
