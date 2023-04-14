@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
 import QuestionCard from 'entities/QuestionCard';
-import { PROBLEMS_TYPE, STATUS } from 'shared/config';
+import { LINKS, PROBLEMS_TYPE, STATUS } from 'shared/config';
 import { useBehavior } from 'shared/lib';
 import { Button } from 'shared/ui';
 
@@ -20,7 +20,7 @@ const Problems = () => {
   const isSingle = familyUserStatus === STATUS.SINGLE;
   const onClickHandler = (problems: string) => {
     setUserProblems(problems);
-    navigate('/decisions');
+    navigate(LINKS.DECISIONS);
   };
   const { gender, age, children } = data;
 

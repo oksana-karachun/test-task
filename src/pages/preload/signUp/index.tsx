@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Index from '../../../processes/email';
+import Email from 'processes/email';
 
 const SignUp = () => {
-  return <Index />;
+  return <Email />;
 };
 export default SignUp;

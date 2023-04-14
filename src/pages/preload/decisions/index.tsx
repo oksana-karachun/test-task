@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import QuestionCard from 'entities/QuestionCard';
-import { DECISION_TYPE } from 'shared/config';
+import { DECISION_TYPE, LINKS } from 'shared/config';
 import { useBehavior } from 'shared/lib';
 import { Button } from 'shared/ui';
 
@@ -14,7 +14,7 @@ const Decisions = () => {
 
   const onClickHandler = (decision: string) => {
     setUserDecisions(decision);
-    navigate('/relationship-info');
+    navigate(LINKS.RELATIONSHIP_INFO);
   };
 
   return (

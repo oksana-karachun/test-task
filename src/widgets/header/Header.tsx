@@ -2,6 +2,7 @@ import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 import { chevron, logo, white_chevron, white_logo } from 'app/icons';
+import { LINKS } from 'shared/config';
 
 import styles from './styles.module.scss';
 
@@ -9,7 +10,7 @@ export const Header = () => {
   const goBack = useNavigate();
   const navigate = useNavigate();
   const location = useLocation();
-  const relationShipInfoPage = location.pathname === '/relationship-info';
+  const relationShipInfoPage = location.pathname === LINKS.RELATIONSHIP_INFO;
 
   const handleGoBackClick = () => {
     goBack(-1);
