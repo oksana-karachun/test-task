@@ -5,28 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="295d3aa4-e8f2-4055-abe6-221e3033c8ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/entities/questionnaire/model/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/hooks/view.hook.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/store/rootReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/rootReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/QuestionCard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/questionnaire/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/QuestionCard/model/index.actionTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/questionnaire/model/index.actionTypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/QuestionCard/model/index.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/questionnaire/model/index.reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/QuestionCard/model/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/QuestionCard/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/questionnaire/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/birth/index.behavior.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/birth/index.behavior.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/birth/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/birth/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/decisions/index.behavior.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/decisions/index.behavior.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/decisions/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/decisions/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/gender/index.behavior.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/gender/index.behavior.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/gender/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/gender/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/parent/index.behavior.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/parent/index.behavior.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/parent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/parent/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/problems/index.behavior.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/problems/index.behavior.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/problems/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/problems/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/status/index.behavior.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/status/index.behavior.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/preload/status/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/status/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/processes/email/index.behavior.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/processes/email/index.behavior.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/api/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/api/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/lib/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/footer/Footer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681485567124</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="[TASK-19] rename folder and refactor exports and imports">
+      <created>1681493162677</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1681493162677</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +343,7 @@
     <MESSAGE value="[TASK-16] add pictures for page" />
     <MESSAGE value="[TASK-17] fix pictures" />
     <MESSAGE value="[TASK-18] move page links to config" />
-    <option name="LAST_COMMIT_MESSAGE" value="[TASK-18] move page links to config" />
+    <MESSAGE value="[TASK-19] rename folder and refactor exports and imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="[TASK-19] rename folder and refactor exports and imports" />
   </component>
 </project>
