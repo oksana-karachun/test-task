@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
 import QuestionCard from 'entities/QuestionCard';
-import { STATUS } from 'shared/config';
+import { LINKS, STATUS } from 'shared/config';
 import { useBehavior } from 'shared/lib';
 import { Button } from 'shared/ui';
 
@@ -17,7 +17,7 @@ const Parent = () => {
 
   const onClickHandler = (parent: boolean) => {
     setFamilyInfo(parent);
-    navigate('/problems');
+    navigate(LINKS.PROBLEMS);
   };
 
   const isSingle = familyUserStatus === STATUS.SINGLE;

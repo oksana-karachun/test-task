@@ -39,3 +39,13 @@ export const MONTH = [
   { value: 'Nov' },
   { value: 'Dec' },
 ];
+
+export const LINKS = {
+  BIRTH: '/birth',
+  STATUS: '/status',
+  PARENT: '/parent',
+  PROBLEMS: '/problems',
+  DECISIONS: '/decisions',
+  RELATIONSHIP_INFO: '/relationship-info',
+  EMAIL: '/email',
+};

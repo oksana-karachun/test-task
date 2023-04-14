@@ -6,7 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="295d3aa4-e8f2-4055-abe6-221e3033c8ca" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/birth/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/birth/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/decisions/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/decisions/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/gender/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/gender/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/parent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/parent/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/problems/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/problems/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/preload/relationship-info/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/relationship-info/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/signUp/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/signUp/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/preload/status/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/preload/status/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/config/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/header/Header.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/TASK-16-add-pictures-for-relationship-info-page" />
+        <entry key="$PROJECT_DIR$" value="feature/TASK-17-fix-pictures" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,7 +52,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/TASK-17-fix-pictures",
+    "git-widget-placeholder": "feature/TASK-18-move-page-links-to-config",
     "last_opened_file_path": "/Users/oksana.karachun/Desktop/obrio_test/src/processes/email",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -285,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681482153977</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="[TASK-17] fix pictures">
+      <created>1681483302015</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1681483302015</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +336,7 @@
     <MESSAGE value="[TASK-14] add readme file" />
     <MESSAGE value="[TASK-15] fix input logic" />
     <MESSAGE value="[TASK-16] add pictures for page" />
-    <option name="LAST_COMMIT_MESSAGE" value="[TASK-16] add pictures for page" />
+    <MESSAGE value="[TASK-17] fix pictures" />
+    <option name="LAST_COMMIT_MESSAGE" value="[TASK-17] fix pictures" />
   </component>
 </project>

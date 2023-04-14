@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import QuestionCard from 'entities/QuestionCard';
-import { STATUS } from 'shared/config';
+import { LINKS, STATUS } from 'shared/config';
 import { useBehavior } from 'shared/lib';
 import { Button } from 'shared/ui';
 
@@ -14,7 +14,7 @@ const Status = () => {
 
   const onClickHandler = (parent: string) => {
     setUserStatus(parent);
-    navigate('/parent');
+    navigate(LINKS.PARENT);
   };
 
   return (

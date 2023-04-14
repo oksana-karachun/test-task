@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import QuestionCard from 'entities/QuestionCard';
-import { MONTH } from 'shared/config';
+import { LINKS, MONTH } from 'shared/config';
 import { DAYS, YEARS } from 'shared/helpers';
 import { useBehavior } from 'shared/lib';
 import { Button, Select } from 'shared/ui';
@@ -20,7 +20,7 @@ const Birth = () => {
 
   const onClickHandler = () => {
     setUserBirth(data);
-    navigate('/status');
+    navigate(LINKS.STATUS);
   };
   const onMonthHandler = (value: string) => {
     setData({ ...data, month: value });

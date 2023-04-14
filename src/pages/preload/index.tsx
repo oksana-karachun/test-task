@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
+import { LINKS } from 'shared/config';
 import { Footer } from 'widgets/footer/Footer';
 import { Header } from 'widgets/header/Header';
 
@@ -19,13 +20,13 @@ const Preload = () => (
     <Header />
     <Routes>
       <Route path={'/'} element={<Gender />} />
-      <Route path={'/birth'} element={<Birth />} />
-      <Route path={'/status'} element={<Status />} />
-      <Route path={'/parent'} element={<Parent />} />
-      <Route path={'/problems'} element={<Problems />} />
-      <Route path={'/decisions'} element={<Decisions />} />
-      <Route path={'/relationship-info'} element={<RelationshipInfo />} />
-      <Route path={'/email'} element={<Email />} />
+      <Route path={LINKS.BIRTH} element={<Birth />} />
+      <Route path={LINKS.STATUS} element={<Status />} />
+      <Route path={LINKS.PARENT} element={<Parent />} />
+      <Route path={LINKS.PROBLEMS} element={<Problems />} />
+      <Route path={LINKS.DECISIONS} element={<Decisions />} />
+      <Route path={LINKS.RELATIONSHIP_INFO} element={<RelationshipInfo />} />
+      <Route path={LINKS.EMAIL} element={<Email />} />
     </Routes>
     <Footer />
   </div>

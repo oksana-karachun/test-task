@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import QuestionCard from 'entities/QuestionCard';
-import { GENDER } from 'shared/config';
+import { GENDER, LINKS } from 'shared/config';
 import { useBehavior } from 'shared/lib';
 import { Button } from 'shared/ui';
 
@@ -14,7 +14,7 @@ const Gender = () => {
 
   const onClickHandler = (gender: string) => {
     setUserGender(gender);
-    navigate('/birth');
+    navigate(LINKS.BIRTH);
   };
 
   return (

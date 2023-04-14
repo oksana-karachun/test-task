@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
 import { decision_1, decision_2, decision_3 } from 'app/icons';
-import { DECISION_TYPE } from 'shared/config';
+import { DECISION_TYPE, LINKS } from 'shared/config';
 import { Button, Typography } from 'shared/ui';
 
 import styles from './inde.module.scss';
@@ -18,7 +18,7 @@ const RelationshipInfo = () => {
   const isHead = userDecision === DECISION_TYPE.HEAD;
   const isBoth = userDecision === DECISION_TYPE.BOTH;
   const onClickGoNextHandler = () => {
-    navigate('/email');
+    navigate(LINKS.EMAIL);
   };
 
   const onClickGoBackHandler = () => {
