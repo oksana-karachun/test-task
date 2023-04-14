@@ -5,7 +5,56 @@
   gap: 30px;
 }
 
+.text {
+  display: flex;
+  text-align: center;
+}
+
+.info {
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 135%;
+}
+
 .buttons {
   display: flex;
   gap: 15px;
+}
+
+.pictures {
+  position: relative;
+  height: 190px;
+}
+
+.circle {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.line {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.head {
+  position: absolute;
+  bottom: 70px;
+  left: 15%;
+}
+
+.heart {
+  position: absolute;
+  bottom: 50px;
+  right: 15%;
+}
+
+.stars {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
