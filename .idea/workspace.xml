@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="295d3aa4-e8f2-4055-abe6-221e3033c8ca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/entities/questionnaire/model/index.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/questionnaire/model/index.reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/questionnaire/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/questionnaire/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Input/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Input/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Typography/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Typography/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Typography/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Typography/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/policy/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/policy/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/policy/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/policy/styles.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681558556494</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="[TASK-19] refactor reducer, remove unnecessary code, fix parent behaviors">
+      <created>1681558616122</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1681558616123</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

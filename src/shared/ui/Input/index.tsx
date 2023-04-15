@@ -34,7 +34,7 @@ export const Input = forwardRef<HTMLInputElement, PropTypes>(
           }) => (
             <>
               <label htmlFor={name}>
-                <Typography title={label} className={styles.label} />
+                <Typography tag="h1" title={label} className={styles.label} />
               </label>
               <input
                 type={type}
