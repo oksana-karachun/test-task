@@ -9,4 +9,4 @@
 # production
 /build
 .DS_Store
-/.idea
+.idea

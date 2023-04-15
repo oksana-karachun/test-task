@@ -5,5 +5,6 @@ export {
   setGender,
   setParent,
   setProblems,
+  setSingleParent,
   setStatus,
-} from './index.reducer';
+} from './index.actions';

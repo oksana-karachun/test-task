@@ -1,11 +1,16 @@
 import { Dispatch } from 'redux';
 
-import { setParent } from 'entities/questionnaire/model';
+import { setParent, setSingleParent } from 'entities/questionnaire/model';
 
-export const setFamilyInfo = (dispatch: Dispatch) => (data: boolean) => {
+export const setParentInfo = (dispatch: Dispatch) => (data: boolean) => {
   dispatch(setParent(data));
 };
 
+export const setSingleParentInfo = (dispatch: Dispatch) => (data: boolean) => {
+  dispatch(setSingleParent(data));
+};
+
 export const parentBehaviors = {
-  setFamilyInfo,
+  setParentInfo,
+  setSingleParentInfo,
 };

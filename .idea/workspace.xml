@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="295d3aa4-e8f2-4055-abe6-221e3033c8ca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/processes/email/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/processes/email/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/footer/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/policy/Policy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/policy/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/questionnaire/model/index.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/questionnaire/model/index.reducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/TASK-18-move-page-links-to-config" />
+        <entry key="$PROJECT_DIR$" value="feature/TASK-19-refactor-code" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,7 +40,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/TASK-19-refactor-code",
+    "git-widget-placeholder": "fix/TASK-19-refactor-code-after-review",
     "last_opened_file_path": "/Users/oksana.karachun/Desktop/obrio_test/src/processes/email",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -322,7 +319,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681493878344</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="[TASK-19] rename policy file component">
+      <created>1681494047572</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1681494047572</updated>
+    </task>
+    <task id="LOCAL-00027" summary="[TASK-19] refactor reducer, remove unnecessary code, fix parent behaviors">
+      <created>1681558556494</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1681558556494</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +344,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -360,6 +383,8 @@
     <MESSAGE value="[TASK-19] rename folder and refactor exports and imports" />
     <MESSAGE value="[TASK-19] move useView hook to shared/lib/hooks" />
     <MESSAGE value="[TASK-19] rename file components" />
-    <option name="LAST_COMMIT_MESSAGE" value="[TASK-19] rename file components" />
+    <MESSAGE value="[TASK-19] rename policy file component" />
+    <MESSAGE value="[TASK-19] refactor reducer, remove unnecessary code, fix parent behaviors" />
+    <option name="LAST_COMMIT_MESSAGE" value="[TASK-19] refactor reducer, remove unnecessary code, fix parent behaviors" />
   </component>
 </project>
