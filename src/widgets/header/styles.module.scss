@@ -6,6 +6,10 @@
   margin-top: 20px;
 }
 
+.first-page {
+  grid-template-columns: 1fr;
+}
+
 .icon {
   cursor: pointer;
 }

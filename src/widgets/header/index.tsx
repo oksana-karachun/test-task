@@ -1,3 +1,4 @@
+import classNames from 'classnames';
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
@@ -11,6 +12,7 @@ export const Header = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const relationShipInfoPage = location.pathname === LINKS.RELATIONSHIP_INFO;
+  const firstPage = location.pathname === '/';
 
   const handleGoBackClick = () => {
     goBack(-1);
@@ -24,13 +26,20 @@ export const Header = () => {
   const logoSVG = relationShipInfoPage ? white_logo : logo;
 
   return (
-    <header className={styles.wrapper}>
-      <img
-        src={chevronSVG}
-        alt="logo"
-        className={styles.icon}
-        onClick={handleGoBackClick}
-      />
+    <header
+      className={classNames(styles.wrapper, {
+        [styles['first-page']]: firstPage,
+      })}
+    >
+      {!firstPage && (
+        <img
+          src={chevronSVG}
+          alt="logo"
+          className={styles.icon}
+          onClick={handleGoBackClick}
+        />
+      )}
+
       <img
         src={logoSVG}
         alt="logo"
