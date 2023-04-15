@@ -11,12 +11,12 @@ import { parentBehaviors } from './index.behavior';
 import { familyUserStatusSelector } from './index.selector';
 
 const Parent = () => {
-  const { setFamilyInfo } = useBehavior(parentBehaviors);
+  const { setParentInfo, setSingleParentInfo } = useBehavior(parentBehaviors);
   const familyUserStatus = useSelector(familyUserStatusSelector);
   const navigate = useNavigate();
 
-  const onClickHandler = (parent: boolean) => {
-    setFamilyInfo(parent);
+  const onClickHandler = (data: boolean) => {
+    isSingle ? setSingleParentInfo(data) : setParentInfo(data);
     navigate(LINKS.PROBLEMS);
   };
 

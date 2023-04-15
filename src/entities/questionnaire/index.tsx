@@ -17,7 +17,7 @@ export const Questionnaire: React.FC<PropTypes> = ({
   return (
     <div className={styles.wrapper}>
       <div className={styles.title}>
-        <Typography title={question} />
+        <Typography tag="h1" title={question} />
       </div>
       {select ? <div className={styles.select}>{select}</div> : null}
       <div className={styles.button}>{buttons}</div>

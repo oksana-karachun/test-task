@@ -16,6 +16,8 @@ export const Policy: React.FC<PropTypes> = ({ className }) => {
         className={classNames(styles.text, styles.policy)}
       />{' '}
       <Typography
+        tag="a"
+        href={'/#'}
         title="Privacy policy"
         className={classNames(styles.text, styles.policy, styles.link)}
       />{' '}
@@ -24,8 +26,10 @@ export const Policy: React.FC<PropTypes> = ({ className }) => {
         className={classNames(styles.text, styles.policy)}
       />{' '}
       <Typography
+        tag="a"
+        href={'/#'}
         title="Terms of use."
-        className={classNames(styles.text, styles.policy)}
+        className={classNames(styles.text, styles.policy, styles.link)}
       />
     </div>
   );
